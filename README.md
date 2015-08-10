@@ -28,7 +28,7 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?php \\mazurva\\web\\DaDataAsset::register($this); ?>
+<?php \mazurva\web\DaDataAsset::register($this); ?>
 ```
 
 or write in `assets/AppAsset.php`
@@ -36,6 +36,6 @@ or write in `assets/AppAsset.php`
 ```php
 public $depends = [
        ...
-       'mazurva\\web\\DaDataAsset',
+       'mazurva\web\DaDataAsset',
     ];
 ```
