@@ -10,7 +10,6 @@
             "email": "mazurva@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*",
         "hflabs/suggestions-jquery": "*"
