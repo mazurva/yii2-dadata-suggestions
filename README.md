@@ -1,6 +1,6 @@
 Yii2 DaData Suggestions
 =======================
-Подсказки DaData для Yii2
+Подсказки DaData.ru для Yii2
 
 Installation
 ------------
@@ -28,4 +28,14 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \mazurva\widgets\AutoloadExample::widget(); ?>```
+<?php \\mazurva\\web\\DaDataAsset::register($this); ?>
+```
+
+or write in `assets/AppAsset.php`
+
+```php
+public $depends = [
+       ...
+       'mazurva\\web\\DaDataAsset',
+    ];
+```

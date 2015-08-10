@@ -10,9 +10,25 @@
             "email": "mazurva@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "hflabs/suggestions-jquery": "*"
     },
+    "repositories": [
+        {
+            "type": "package",
+            "package":{
+                "name": "hflabs/suggestions-jquery",
+                "version": "15.7.4",
+                "source": {
+                    "url":"https://github.com/hflabs/suggestions-jquery",
+                    "type": "git",
+                    "reference": "15.7"
+                }
+            }
+        }
+    ],
     "autoload": {
         "psr-4": {
             "mazurva\\widgets\\": ""
