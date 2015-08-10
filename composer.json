@@ -26,7 +26,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "hflabs/suggestions-jquery": "15.7.4"
+        "hflabs/suggestions-jquery": "^15.7"
     },
     "autoload": {
         "psr-4": {
