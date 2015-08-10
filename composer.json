@@ -16,7 +16,7 @@
             "type": "package",
             "package":{
                 "name": "hflabs/suggestions-jquery",
-                "version": "master",
+                "version": "dev-master",
                 "source": {
                     "url":"https://github.com/hflabs/suggestions-jquery",
                     "type": "git",
