@@ -1,0 +1,21 @@
+{
+    "name": "mazurva/yii2-dadata-suggestions",
+    "description": "Подсказки DaData.ru для Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Vadim Mazur",
+            "email": "mazurva@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mazurva\\widgets\\": ""
+        }
+    }
+}
