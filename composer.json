@@ -10,10 +10,6 @@
             "email": "mazurva@gmail.com"
         }
     ],
-    "require": {
-        "yiisoft/yii2": "*",
-        "hflabs/suggestions-jquery": "15.7.4"
-    },
     "repositories": [
         {
             "type": "package",
@@ -28,6 +24,10 @@
             }
         }
     ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "hflabs/suggestions-jquery": "15.7.4"
+    },
     "autoload": {
         "psr-4": {
             "mazurva\\widgets\\": ""
