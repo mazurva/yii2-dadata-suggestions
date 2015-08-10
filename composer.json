@@ -10,6 +10,7 @@
             "email": "mazurva@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "package",
