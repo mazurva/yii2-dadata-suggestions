@@ -16,18 +16,18 @@
             "type": "package",
             "package":{
                 "name": "hflabs/suggestions-jquery",
-                "version": "15.7.4",
+                "version": "master",
                 "source": {
                     "url":"https://github.com/hflabs/suggestions-jquery",
                     "type": "git",
-                    "reference": "15.7"
+                    "reference": "origin/master"
                 }
             }
         }
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "hflabs/suggestions-jquery": "^15.7"
+        "hflabs/suggestions-jquery": "dev-master"
     },
     "autoload": {
         "psr-4": {
