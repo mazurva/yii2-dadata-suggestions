@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
  */
 class DaDataAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/hflabs/suggestions-jquery/dist';
+    public $sourcePath = '@vendor/mazurva/suggestions-jquery/dist';
 
     public $css = [
         'css/suggestions.css',

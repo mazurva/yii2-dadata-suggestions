@@ -11,23 +11,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "package",
-            "package":{
-                "name": "hflabs/suggestions-jquery",
-                "version": "15.6.1",
-                "source": {
-                    "url":"https://github.com/hflabs/suggestions-jquery",
-                    "type": "git",
-                    "reference": "15.6"
-                }
-            }
-        }
-    ],
     "require": {
         "yiisoft/yii2": "*",
-        "hflabs/suggestions-jquery": "*"
+        "mazurva/suggestions-jquery": "dev-master"
     },
     "autoload": {
         "psr-4": {
