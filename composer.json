@@ -13,7 +13,7 @@
     "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*",
-        "mazurva/suggestions-jquery": "dev-master"
+        "mazurva/suggestions-jquery": "*"
     },
     "autoload": {
         "psr-4": {
