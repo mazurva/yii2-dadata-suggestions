@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist mazurva/yii2-dadata-suggestions "*"
+php composer.phar require --prefer-dist mazurva/yii2-dadata-suggestions "^0.1"
 ```
 
 or add
 
 ```
-"mazurva/yii2-dadata-suggestions": "*"
+"mazurva/yii2-dadata-suggestions": "^0.1"
 ```
 
 to the require section of your `composer.json` file.
