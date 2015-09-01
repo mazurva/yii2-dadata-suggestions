@@ -14,10 +14,11 @@
     "require": {
         "yiisoft/yii2": "*",
         "mazurva/suggestions-jquery": "*"
+
     },
     "autoload": {
         "psr-4": {
-            "mazurva\\widgets\\": ""
+            "mazurva\\": ""
         }
     }
 }
